@@ -14,7 +14,7 @@ A Bloggify plugin for sharing articles on social networks.
 
 ## Screenshot
 
-> ![](http://i.imgur.com/ORDvABt.png)
+![](http://i.imgur.com/ORDvABt.png)
 
 
 ## License
