@@ -1,0 +1,11 @@
+style
+ | a.mt-share-inline-square-sm img { width: 34px; height: auto; border: 0px; }a.mt-share-inline-square-sm { display: inline-block; width: 34px; height: 34px; border-radius: 2px; margin-right: 4px; }.mt-google:hover { background-color: rgb(225, 95, 79); }.mt-google { background-color: rgb(221, 75, 57); }.mt-linkedin:hover { background-color: rgb(16, 135, 192); }.mt-linkedin { background-color: rgb(14, 118, 168); }.mt-twitter:hover { background-color: rgb(8, 187, 255); }.mt-twitter { background-color: rgb(0, 172, 238); }.mt-facebook:hover { background-color: rgb(66, 100, 170); }.mt-facebook { background-color: rgb(59, 89, 152); }.mt-pinterest:hover { background-color: rgb(221, 42, 48); }.mt-pinterest { background-color: rgb(204, 33, 39); }
+ | div.social { position: fixed; right: 10px; bottom: 10px; }
+
+div.social
+  a.mt-facebook.mt-share-inline-square-sm(href='https://www.facebook.com/sharer/sharer.php?u=' + url)
+    img(src='http://mojotech-static.s3.amazonaws.com/facebook@2x.png')
+  a.mt-twitter.mt-share-inline-square-sm(href='http://twitter.com/intent/tweet?text=' + description + '&url=' + url)
+    img(src='http://mojotech-static.s3.amazonaws.com/twitter@2x.png')
+  a.mt-google.mt-share-inline-square-sm(href='https://plus.google.com/share?url=' + url)
+    img(src='http://mojotech-static.s3.amazonaws.com/google@2x.png')
