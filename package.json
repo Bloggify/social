@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/Bloggify/social",
   "dependencies": {
-    "ul": "^1.1.0"
+    "ul": "^1.1.0",
+    "jade": "1.11.0"
   },
   "devDependencies": {}
 }
