@@ -26,5 +26,13 @@
     "ul": "^1.1.0",
     "jade": "1.11.0"
   },
+  "blah": {
+    "configuration": {
+      "name": "social",
+      "source": "git@github.com:Bloggify/social.git",
+      "version": "master"
+    },
+    "ex_img": "http://i.imgur.com/ORDvABt.png"
+  },
   "devDependencies": {}
 }
