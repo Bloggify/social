@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/Bloggify/social",
   "dependencies": {
-    "ul": "^1.1.0",
-    "jade": "1.11.0"
+    "elly": "^1.1.2",
+    "jade": "1.11.0",
+    "ul": "^1.1.0"
   },
   "blah": {
     "configuration": {
@@ -34,5 +35,13 @@
     },
     "ex_img": "http://i.imgur.com/ORDvABt.png"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bloggify": {
+    "styles": [
+      "src/style.css"
+    ],
+    "scripts": [
+      "src/index.js"
+    ]
+  }
 }
