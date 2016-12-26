@@ -6,7 +6,7 @@ const description = encodeURIComponent($("meta[property='og:title']").content);
 
 const links = {
     facebook: "https://www.facebook.com/sharer/sharer.php?u=" + url
-  , twitter: "http://twitter.com/intent/tweet?text=" + description + "&url=" + url
+  , twitter: "https://twitter.com/intent/tweet?text=" + description + "&url=" + url
   , google: "https://plus.google.com/share?url=" + url
 };
 
@@ -19,7 +19,7 @@ let lnk = type => {
 
     $a.appendChild(
         $("<img>", {
-            src: "http://mojotech-static.s3.amazonaws.com/" + type + "@2x.png"
+            src: "https://mojotech-static.s3.amazonaws.com/" + type + "@2x.png"
         })
     );
 
