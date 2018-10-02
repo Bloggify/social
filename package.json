@@ -16,14 +16,15 @@
     "form",
     "blog"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "KINDLY",
+  "author": "Bloggify <support@bloggify.org> (https://bloggify.org)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Bloggify/social/issues"
   },
   "homepage": "https://github.com/Bloggify/social",
   "dependencies": {
     "elly": "^1.1.2",
+    "jade": "1.11.0",
     "ul": "^1.1.0"
   },
   "blah": {
@@ -42,5 +43,19 @@
     "scripts": [
       "src/index.js"
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json"
+  ]
 }
