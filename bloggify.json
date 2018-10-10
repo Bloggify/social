@@ -1,0 +1,8 @@
+{
+    "styles": [
+        "src/style.css"
+    ],
+    "scripts": [
+        "src/index.js"
+    ]
+}

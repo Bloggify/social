@@ -1,6 +1,6 @@
 {
   "name": "bloggify-social",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "A Bloggify plugin for sharing articles on social networks.",
   "main": "lib/index.js",
   "scripts": {
@@ -35,14 +35,6 @@
     "ex_img": "http://i.imgur.com/ORDvABt.png"
   },
   "devDependencies": {},
-  "bloggify": {
-    "styles": [
-      "src/style.css"
-    ],
-    "scripts": [
-      "src/index.js"
-    ]
-  },
   "files": [
     "bin/",
     "app/",
